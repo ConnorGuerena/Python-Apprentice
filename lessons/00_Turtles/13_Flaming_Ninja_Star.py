@@ -19,11 +19,11 @@ colors = ["red", "blue", "green", "yellow", "orange"]
 def getNextColor(i):
     return colors[i % len(colors)]
 
-turtle.setup (width=600, height=600) 
+turtle.setup (width=6000, height=6000) 
 window = turtle.Screen()
 
-baseSize = 200  # the size of the black part of the star
-flameSize = 130  # the length of the flaming arms
+baseSize = 20  # the size of the black part of the star
+flameSize = 30  # the length of the flaming arms
 
 t = turtle.Turtle() 
 
@@ -40,19 +40,19 @@ for i in range(25):
    
     t.begin_fill()
 
-    t.forward(64) 
+    t.forward(34) 
 
-    t.left(40) 
-
-    t.forward(flameSize) 
-
-    t.right(170) 
+    t.left(45) 
 
     t.forward(flameSize) 
 
-    t.right(62) 
+    t.right(30) 
 
-    t.forward(baseSize) 
+    t.forward(flameSize) 
+
+    t.right(42) 
+ 
+    t.forward(i)
 
     t.end_fill()
 

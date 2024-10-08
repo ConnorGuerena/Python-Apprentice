@@ -14,10 +14,15 @@ turtle.setup (width=600, height=600)    # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
 
-# Use tina.forward() and tina.left() to draw a triangle
-# Make each side of the triangle a different color with 
-# tina.pencolor()
+tina.color('orange')
+tina.speed(0)
+for i in range(999):
+    tina.forward(50)
+    tina.left(30)
+    tina.forward(-50)
+    tina.left(30)
+    tina.forward(-50)
+    tina.left(10)
+   
 
-... # Your code here
-
-turtle.exitonclick()                    # Close the window when we click on it
+turtle.done()
