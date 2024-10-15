@@ -18,11 +18,8 @@ tina.color('orange')
 tina.speed(0)
 for i in range(999):
     tina.forward(50)
-    tina.left(30)
-    tina.forward(-50)
-    tina.left(30)
-    tina.forward(-50)
-    tina.left(10)
-   
+    tina.left(90)
+    tina.forward(50)
+    tina.back(i/5)
 
 turtle.done()
