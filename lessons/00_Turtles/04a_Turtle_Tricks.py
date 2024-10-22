@@ -17,9 +17,9 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 tina.color('orange')
 tina.speed(0)
 for i in range(999):
-    tina.forward(50)
-    tina.left(90)
-    tina.forward(50)
-    tina.back(i/5)
+    tina.forward(60)
+    tina.left(65)
+    tina.forward(30)
+    tina.forward(i/5)
 
 turtle.done()
