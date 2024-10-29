@@ -22,10 +22,11 @@ tina.shape('turtle')                    # Set the shape of the turtle to a turtl
 tina.speed(0)                           # Make the turtle move as fast, but not too fast. 
 
 
-forwards = [ 50,30,50,30 ]*5000
-lefts = [ 45,90,45,90 ]*5000
-colors = ['blue', 'red', 'orange', 'black', ]*5000
-for  i in range(20000):
+forwards = [ 50,30,50,30 ]*50
+lefts = [ 45,90,45,90 ]*50
+colors = ['blue', 'red', 'orange', 'black', ]*50
+tina.goto(0,200)
+for  i in range(20):
 
     forward = forwards[i]
     left = lefts[i]
@@ -35,7 +36,437 @@ for  i in range(20000):
     tina.color(color)
     tina.forward(forward)
     tina.left(left)
-    tina.forward(i/20)
+    tina.forward(i)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.left(i)
+for  i in range(20):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.forward(forward-40)
+    tina.left(left-4)
+    tina.forward(i)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(20):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.forward(forward-40)
+    tina.left(left-4)
+    tina.forward(i)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(20):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.forward(forward-40)
+    tina.left(left-4)
+    tina.forward(i)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(20):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.forward(forward-40)
+    tina.left(left-4)
+    tina.forward(i)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(20):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.forward(forward-40)
+    tina.left(left-4)
+    tina.forward(i)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
+for  i in range(200):
+
+    forward = forwards[i]
+    left = lefts[i]
+    color = colors[i]
+
+
+    tina.color(color)
+    tina.left(left)
+    tina.back(forward)
+    tina.forward(4)
+    tina.left(i)
+    tina.forward(4)
 
 turtle.done()  
 
